@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp3", "Windows
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmarQWebForms", "..\SmarQWebForms\SmarQWebForms.csproj", "{10FDEF43-9D5E-468D-AF28-39AF48DA2512}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SmartQDatabase", "..\SmartQDatabase\SmartQDatabase.sqlproj", "{491885F3-4A00-40DB-BEA2-214BEDCB962F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,12 @@ Global
 		{10FDEF43-9D5E-468D-AF28-39AF48DA2512}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10FDEF43-9D5E-468D-AF28-39AF48DA2512}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10FDEF43-9D5E-468D-AF28-39AF48DA2512}.Release|Any CPU.Build.0 = Release|Any CPU
+		{491885F3-4A00-40DB-BEA2-214BEDCB962F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{491885F3-4A00-40DB-BEA2-214BEDCB962F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{491885F3-4A00-40DB-BEA2-214BEDCB962F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{491885F3-4A00-40DB-BEA2-214BEDCB962F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{491885F3-4A00-40DB-BEA2-214BEDCB962F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{491885F3-4A00-40DB-BEA2-214BEDCB962F}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

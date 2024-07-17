@@ -6,7 +6,7 @@
       "AbsoluteMoniker": "D:0:0:{10FDEF43-9D5E-468D-AF28-39AF48DA2512}|..\\SmarQWebForms\\SmarQWebForms.csproj|c:\\jyoti1\\smartq\\smarqwebforms\\ticketform.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CED79558-BDBA-44EB-BE51-20E67D398892}|WindowsFormsApp3.csproj|c:\\jyoti1\\smartq\\windowsformsapp3\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CED79558-BDBA-44EB-BE51-20E67D398892}|WindowsFormsApp3.csproj|C:\\jyoti1\\smartq\\WindowsFormsApp3\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CED79558-BDBA-44EB-BE51-20E67D398892}|WindowsFormsApp3.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -87,8 +87,7 @@
               "ToolTip": "C:\\jyoti1\\smartq\\WindowsFormsApp3\\Login.cs [Design]",
               "RelativeToolTip": "Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T11:56:52.496Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-07-17T11:56:52.496Z"
             },
             {
               "$type": "Document",
@@ -100,8 +99,7 @@
               "RelativeToolTip": "..\\..\\..\\Users\\jyoti\\source\\repos\\SmarQWebForms\\DeleteService.aspx.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T15:09:23.167Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T15:09:23.167Z"
             },
             {
               "$type": "Document",
