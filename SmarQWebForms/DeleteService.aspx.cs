@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SmarQWebForms.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -18,7 +19,7 @@ namespace SmarQWebForms
                 SmartQDBEntities smartQDBEntities = new SmartQDBEntities();
 
                 var service = smartQDBEntities.Services.Where(m => m.Id == serviceid).FirstOrDefault();
-                txtServiceName.Value = service.ServiceName;
+                //txtServiceName.Value = service.ServiceName;
             }
         }
     }
