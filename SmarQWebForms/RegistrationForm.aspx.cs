@@ -15,7 +15,11 @@ namespace SmarQWebForms
 
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                txtOTP.Disabled = true;
+                btnSubmitOTP.Disabled=true;
+            }
         }
 
         protected void btnSubmit_ServerClick(object sender, EventArgs e)
@@ -60,7 +64,11 @@ namespace SmarQWebForms
                     myuser.OTP = value.ToString();
                     smartQDBEntities.SaveChanges();
 
+                    txtOTP.Disabled = false;
+                    btnSubmitOTP.Disabled = false;
 
+                    txtMobileNumber.Disabled = true;
+                    btnSendOTP.Disabled = true;
                 }
 
             }
@@ -132,6 +140,12 @@ namespace SmarQWebForms
 
                     myuser.OTP = value.ToString();
                     smartQDBEntities.SaveChanges();
+
+                    txtOTP.Disabled = false;
+                    btnSubmitOTP.Disabled = false;
+
+                    txtMobileNumber.Disabled = true;
+                    btnSendOTP.Disabled = true;
 
                 }
             }
