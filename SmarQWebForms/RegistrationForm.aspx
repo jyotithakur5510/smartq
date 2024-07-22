@@ -12,7 +12,7 @@
         <div>
             <table>
                 <tr>
-                    <td>Mobile Number
+                    <td>Please enter your Mobile Number
                     </td>
                     <td>
                         <input type="text" runat="server" id="txtMobileNumber" />
