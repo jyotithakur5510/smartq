@@ -364,3 +364,4 @@ MigrationBackup/
 FodyWeavers.xsd
 *.dll
 /SmarQWebForms/bin
+/WindowsFormsApp3/bin
