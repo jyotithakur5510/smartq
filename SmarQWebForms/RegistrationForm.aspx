@@ -9,7 +9,7 @@
     <style type="text/css">
         .center {
             margin: auto;
-            width: 50%;
+            width: 40%;
             border: 1px solid black;
             padding: 10px;
         }
@@ -42,7 +42,14 @@
                             <input type="text" runat="server" id="txtMobileNumber" />
                         </td>
                         <td>
-                            <input type="submit" runat="server" id="btnSendOTP" onserverclick="btnSendOTP_ServerClick1" value="Send OTP" /></td>
+                            <input type="submit" runat="server" id="btnSendOTP" onserverclick="btnSendOTP_ServerClick1" value="Send OTP" />
+
+                        </td>
+                        </tr>
+                    <tr>
+                        <td>
+                            OTP
+                        </td>
                         <td>
                             <input type="text" runat="server" id="txtOTP" />
                         </td>
@@ -62,6 +69,7 @@
 
                     </tr>
                     <tr>
+                        <td></td>
                         <td>
                             <input class="btnStyle" type="submit" value="Register" runat="server" id="btnregister" onserverclick="btnregister_ServerClick" />
                         </td>
